@@ -1,0 +1,80 @@
+.oculto{
+    display: none;
+}
+
+body{
+	font-family: 'Varela Round';
+  
+	color: white;
+
+  background-size: cover;
+  min-height: 100vh;
+  
+  
+}
+
+.veranoFondo{
+    background-image: url(img/veranoFondo.jpg);
+}
+
+.otonoFondo{
+    background-image: url(img/otoñoFondo.jpg);
+}
+.inviernoFondo{
+    background-image: url(img/inviernoFondo.jpg);
+}
+.primaveraFondo{
+    background-image: url(img/primaveraFondo.webp);
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.foto{
+	float: left;
+	width: 300px;
+	height: 300px;
+}
+
+.sorpresa{
+margin-top: 30px;
+	width: 300px;
+	height: 300px;
+}
+
+.noVea{
+	filter: brightness(0);
+}
+
+
+
+h1{
+	font-size: 3rem;
+  margin: 30px 0;
+  text-align: center;
+  text-shadow: 2px 2px #4e53ff;
+}
+
+.countdown-container{
+	display: flex;
+}
+
+	.countdown-container div{
+		text-align: center;
+	}
+
+		.countdown-container p{
+			font-size: 2rem;
+			text-shadow: 2px 2px #4e53ff;
+			margin: 0 5vw;
+		}
+
+		.countdown-container span{
+			font-size: 1rem;
+			text-shadow: 2px 2px #4e53ff;
+		}

@@ -1,0 +1,17 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border{
+    border: 2px black solid;
+}
+
+.border tr{
+    border: 2px black solid;
+}
+
+.border td{
+    border: 2px black solid;
+}

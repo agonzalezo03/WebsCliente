@@ -1,0 +1,27 @@
+.contenedor{
+    background-image: url(fondo.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    color: rgb(0, 54, 14);
+    font-size: 100px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.oculta{
+    display:none;
+}
+
+.texto{
+    background-color: azure;
+    padding: 20px;
+}
